@@ -1,0 +1,45 @@
+/*.home-section {
+    height: 100vh;
+    background-image: url("/images/IMG_0305.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .overlay-content {
+    background: rgba(0, 0, 0, 0.5); /* optional dark overlay */
+   /* padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .scroll-btn {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll-btn:hover {
+    background-color: #ddd;
+  }
+  
