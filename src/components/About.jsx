@@ -4,18 +4,18 @@ const About = () => (
   <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 className="w3-text-light-grey">Nishant Sharma</h2>
     <hr style={{ width: "200px" }} className="w3-opacity" />
-    <p>Welcome to my portfolio, Hi there Nishant Sharma this side. i'm someone who values curiosity, creativity, 
-      and continuous growth. I enjoy exploring new ideas, learning from different perspectives, 
-      and expressing myself through the work i create. I love travelling and exploring the world, 
-      it inspires me to see things from new perspectives and connect with different cultures. 
-      I approach life with an open mind and a passion for learning. I value authenticity, growth, 
-      and the little details that make each journey unique, both in life and in the work i create.</p>
+    <p>Welcome to my portfolio!
+      Hi there, I’m Nishant Sharma — a curious mind, a creative thinker, and a passionate learner.
+      I believe in the power of continuous growth, fresh perspectives, and meaningful creativity. My work is fueled by a desire to explore new ideas, learn from diverse experiences, and bring thoughtful expression into everything I create.
+      Traveling is one of my greatest sources of inspiration. It allows me to see the world through different lenses, connect with unique cultures, and embrace the beauty of diversity. Whether it’s through my projects or personal adventures, I strive to approach every journey with an open mind and an eye for the little details that make each experience truly special.
+      Authenticity, growth, and a love for craftsmanship define not just my work, but the way I live. Thanks for stopping by — I’m excited to share my journey with you.
+</p>
 
     <h3 className="w3-padding-16 w3-text-light-grey">My Skills</h3>
     {['Explorer/Astounded', 'Web Development', 'Skills for coding(HTML/CSS/JS/React/NodeJS/NestJS)'].map((skill, idx) => (
       <div key={idx}>
         <p className="w3-wide">{skill}</p>
-        <div className="w3-white">
+        <div className="w3-white"> 
           <div className="w3-dark-grey" style={{ height: "28px", width: `${95 - idx * 10}%` }}></div>
         </div>
       </div>
