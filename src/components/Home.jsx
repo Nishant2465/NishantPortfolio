@@ -7,22 +7,52 @@ const Home = () => {
       style={{
         backgroundImage: `url("/images/IMG_0305.jpg")`,
         backgroundSize: "contain",
-        backgroundPosition: "left",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         height: "70vh",
-        width: "95%",
+        width: "100%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "end",
+        alignItems: "center",
+        padding: "0.5rem",
         color: "White",
         textAlign: "left",
+        position: "relative",
       }}
     >
-      <h1 style={{ fontSize: "5rem", marginBottom: "0rem" }}>
-        I'm Nishant Sharma.
-      </h1>
-      <p style={{ fontSize: "2rem" }}>-- Explorer and Web Developer.</p>
+      <div
+    style={{
+      backgroundColor: "rgba(0, 0, 0, 0.4)",
+      padding: "0.5rem 0.5rem",
+      borderRadius: "5px",
+      display: "flex",
+      flexDirectional: "column",
+      alignItems: "center",
+      marginTop: "18rem",
+    }}
+  >
+    <h1
+      style={{
+        fontSize: "4rem",
+        marginBottom: "-2rem",
+        fontFamily: "'Pacifico', cursive",
+        marginTop: "-2rem"
+      }}
+    >
+      I'm Nishant Sharma.
+    </h1>
+    <p
+      style={{
+        fontSize: "1.25rem",
+        fontFamily: "'Pacifico', cursive",
+        alignSelf: "start",
+        marginTop: "5rem",
+      }}
+    >
+     - Explorer and Web Developer.
+    </p>
+  </div>
     </section>
   );
 };

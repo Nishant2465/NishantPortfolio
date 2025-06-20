@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-      <h2 className="w3-text-light-grey">Nishant Sharma</h2>
+      <h2 className="w3-text-light-grey">About Me</h2>
       <hr style={{ width: "200px" }} className="w3-opacity" />
 
       <p>
