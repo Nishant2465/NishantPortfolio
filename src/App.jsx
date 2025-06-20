@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./components/Sildebar";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
+import About from "./components/About.tsx";
 import Photos from "./components/Photos";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
